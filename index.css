@@ -1,0 +1,72 @@
+html, body {
+    background-color: #EEF0F4;
+    font-family: 'Protest Riot', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #432000;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+input {
+    background-color: #DCE1EB;
+    border: none;
+    border-radius: 8px;
+    color: #432000;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 15px;
+    text-align: center;
+}
+
+button {
+    background-color: #AC485A;
+    border: none;
+    border-radius: 8px;
+    color: #FDFDFD;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #432000;
+    cursor: pointer;
+}
+
+#cat-img {
+    width: 250px;
+    margin: 0 auto;
+}
+
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #FFFDF8;
+    border-radius: 8px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    display: block;
+    flex-grow: 1;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+ul li:hover {
+    background-color: #FFECC7;
+    cursor: pointer;
+}
